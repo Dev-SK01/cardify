@@ -18,10 +18,12 @@ export function Template2({ data }: TemplateProps) {
 
   return (
     <Card className="w-full max-w-md mx-auto shadow-xl rounded-lg overflow-hidden bg-card text-card-foreground animate-fadeIn">
-      <div className="relative h-48 bg-gradient-to-br from-primary to-accent">
-        <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2 w-32 h-32 rounded-full overflow-hidden border-4 border-card shadow-lg bg-card">
+      <div className="relative h-32 bg-gradient-to-br from-primary to-accent flex items-center justify-center">
+        {/* Avatar placed directly below the gradient, centered */}
+        <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-card shadow-lg bg-card mt-16">
           <Image
             src={photoSrc}
+            priority // Add priority for better loading
             alt={data.fullName || "Profile photo"}
             width={200}
             height={200}
@@ -32,7 +34,7 @@ export function Template2({ data }: TemplateProps) {
       </div>
       
       <CardContent className="pt-20 p-6 text-center space-y-4">
-        <h1 className="text-3xl font-bold text-foreground">{data.fullName || "Your Name"}</h1>
+        <h1 className="text-3xl font-bold text-foreground mt-4">{data.fullName || "Your Name"}</h1> {/* Added mt-4 for spacing */}
         <p className="text-lg text-primary">{data.jobTitle || "Your Title"}</p>
         
         {data.bio && (
