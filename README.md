@@ -18,14 +18,6 @@
 - Use clear, sans-serif fonts like 'Arial' or 'Helvetica' for readability.
 - Simple, line-based icons for social media links and contact options.
 - Clean, responsive layouts optimized for various screen sizes.
-=======
-
-# Cardify - Digital Business Cards
-
-Cardify is a modern, customizable digital business card generator built with Next.js, React, ShadCN UI, Tailwind CSS, and Genkit for potential AI-powered enhancements. Create, preview, and share your professional digital business card with ease.
-
-[![Open in Firebase Studio](https://firebase.com/static/images/brand-guidelines/logo-logomark.png)](https://YOUR_FIREBASE_STUDIO_LINK_HERE) 
-<!-- Replace YOUR_FIREBASE_STUDIO_LINK_HERE with your actual project link -->
 
 ## Features
 
