@@ -1,5 +1,5 @@
 # **App Name**: Cardify
-# Live URL [https://cardify-one.vercel.app]
+# [LiveURL](https://cardify-one.vercel.app)
 ## Core Features:
 
 - Profile Section: Display a profile section with photo (upload or placeholder), full name, job title, and short bio/tagline.
